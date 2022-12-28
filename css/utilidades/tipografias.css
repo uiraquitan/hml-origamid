@@ -1,0 +1,11 @@
+.texto-grande {
+    font: 600 4rem/1.25 'Poppins', sans-serif;
+}
+
+.texto-medio {
+    /* font-family: 'roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400; */
+    font: 4 1.2rem/1.35 'roboto', sans-serif;
+}
