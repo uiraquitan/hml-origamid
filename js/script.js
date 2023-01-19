@@ -1,3 +1,4 @@
+const CleanCSS = require("clean-css");
 
 
 const links = document.querySelectorAll(".header-menu a");
@@ -72,3 +73,7 @@ function eventoGaleria(img) {
 
 galeria.forEach(eventoGaleria);
 
+if (window.SimpleAnime) {
+
+    new SimpleAnime();
+}
